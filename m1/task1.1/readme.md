@@ -1,5 +1,6 @@
 # Task 1
 **Describe  working with GIT**
+
 1. Config and check my globals
 * ![](images/001.png)
 
@@ -30,11 +31,8 @@
 9. Make branch styles
 `git checkout -b styles`
 10. add style and change index.html (add styles.css)
-    * {
-        margin: auto;
-        background-color: azure;
-    }
-    ![](images/007.png)
+
+* ![](images/007.png)
 
 11. go to develop branch
 `git checkout develop`
@@ -48,3 +46,11 @@
 14. merge **develop** to **main** branch
 `git merge develop`
 ------------
+**What is DevOps?**
+
+I can write that DevOps is  Methodologies or Culture or philosophy, and it's true. But in real first of all, it's about 
+* Creating an Environment for development.
+* Configure project and development instances.
+* Creating virtual networks for infrastructure or projects.
+* Support ci/cd processes.
+* Make coding, delivering, and deployment more easier and automatic.
