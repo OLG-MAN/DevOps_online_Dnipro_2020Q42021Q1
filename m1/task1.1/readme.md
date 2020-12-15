@@ -9,4 +9,6 @@ Describe  working with GIT
 - Make branch images
 `git checkout -b images`
 - add images 
-![](images/img001.png)
+- ![](images/img001.png)
+- ![](images/img002.png)
+- ![](images/img003.png)
