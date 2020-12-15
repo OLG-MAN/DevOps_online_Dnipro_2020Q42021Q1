@@ -1,0 +1,25 @@
+git reflog
+3cabce5 (HEAD -> main, origin/main, origin/develop, origin/HEAD, develop) HEAD@{0}: merge develop: Fast-forward
+d120ca0 HEAD@{1}: checkout: moving from develop to main
+3cabce5 (HEAD -> main, origin/main, origin/develop, origin/HEAD, develop) HEAD@{0}: merge develop: Fast-forward       
+d120ca0 HEAD@{1}: checkout: moving from develop to main
+3cabce5 (HEAD -> main, origin/main, origin/develop, origin/HEAD, develop) HEAD@{2}: commit (merge): merge1
+8e8d3bc (origin/images, images) HEAD@{3}: merge images: Fast-forward
+1ed2f56 HEAD@{4}: checkout: moving from styles to develop
+aa17fa3 (origin/styles, styles) HEAD@{5}: commit: change index.html (add styles)
+b70cb06 HEAD@{6}: checkout: moving from develop to styles
+1ed2f56 HEAD@{7}: checkout: moving from styles to develop
+b70cb06 HEAD@{8}: commit: add styles
+1ed2f56 HEAD@{9}: checkout: moving from develop to styles
+1ed2f56 HEAD@{10}: checkout: moving from images to develop
+8e8d3bc (origin/images, images) HEAD@{11}: commit: add images to index.html
+f8ca1a8 HEAD@{12}: commit: add image folder and images
+1ed2f56 HEAD@{13}: checkout: moving from develop to images
+1ed2f56 HEAD@{14}: commit: add index.html
+d120ca0 HEAD@{15}: checkout: moving from main to develop
+d120ca0 HEAD@{16}: commit: add readme.txt file, rename folder task1 to task1.1
+783d7d0 HEAD@{17}: commit: add readme.txt
+ab641ed HEAD@{18}: commit: add readme files
+49db345 HEAD@{19}: commit: add other folders
+9633378 HEAD@{20}: commit: make folder tree. add readme files
+b08ce8c HEAD@{21}: clone: from github.com:OLG-MAN/DevOps_online_Dnipro_2020Q42021Q1.git
