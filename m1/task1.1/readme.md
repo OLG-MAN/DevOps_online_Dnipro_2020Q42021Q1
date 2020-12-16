@@ -1,4 +1,4 @@
-# Task 1
+# Task 1.1
 **Describe  working with GIT**
 
 1. Config and check my globals
@@ -41,14 +41,14 @@
 `git merge images`
 * ![](images/008.png)
 
-13. go to main branch
+13. go to **main** branch
 `git checkout main`
 14. merge **develop** to **main** branch
 `git merge develop`
 ------------
 **What is DevOps?**
 
-I can write that DevOps is  Methodologies or Culture or philosophy, and it's true. But in real first of all, it's about 
+I can write that DevOps is  Methodologies or Culture or Philosophy, and it's true. But in real first of all, it's about 
 * Creating an Environment for development.
 * Configure project and development instances.
 * Creating virtual networks for infrastructure or projects.
