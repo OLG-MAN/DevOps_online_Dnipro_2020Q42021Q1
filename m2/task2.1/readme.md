@@ -111,6 +111,7 @@
 * ![](img/107.png)
 
 4. Configure different network modes for VM1, VM2.
+
 **Connection Table**
 * ![](img/table.png)
 
