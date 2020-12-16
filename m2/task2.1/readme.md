@@ -96,3 +96,16 @@
 * ![](img/009.png)
 
 **Configuration of virtual machines**
+
+1. Explored VM Settings.
+
+2. Configure connect from host USB port to guest USB port.
+* ![](img/101.png)
+* ![](img/102.png)
+* ![](img/103.png)
+
+3. Configure Shared folder beetween host and guest.
+* ![](img/104.png)
+* ![](img/105.png)
+* ![](img/106.png)
+* ![](img/107.png)
