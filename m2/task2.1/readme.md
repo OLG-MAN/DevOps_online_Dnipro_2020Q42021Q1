@@ -69,3 +69,30 @@
 * ![](img/Comparsion.png)
 
 ### Part 2
+
+**Work with VirtualBox**
+
+1. VirtualBox already installed on my host
+* ![](img/001.png)
+
+2. Create VM1
+* ![](img/002.png)
+
+3. Install Ubuntu
+* ![](img/003.png)
+
+4. Make Clone VM
+* ![](img/004.png)
+* ![](img/005.png)
+
+5. Make Group of VM's
+* ![](img/006.png)
+
+6. Make snapshots of VM1
+* ![](img/007.png)
+
+7. Export VM1 to .ova file.
+* ![](img/008.png)
+* ![](img/009.png)
+
+**Configuration of virtual machines**
