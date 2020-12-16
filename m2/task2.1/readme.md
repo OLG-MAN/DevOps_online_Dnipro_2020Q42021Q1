@@ -109,3 +109,32 @@
 * ![](img/105.png)
 * ![](img/106.png)
 * ![](img/107.png)
+
+4. Configure different network modes for VM1, VM2.
+**Connection Table**
+* ![](img/table.png)
+
+**NAT mode connection.**
+* ![](img/nat1.png)
+* ![](img/nat2.png)
+* ![](img/nat3.png)
+* ![](img/nat4.png)
+
+**Bridged mode connection**
+* ![](img/bridge1.png)
+* ![](img/bridge2.png)
+* ![](img/bridge3.png)
+* ![](img/bridge4png)
+
+**Internal network connection**
+* ![](img/intnet.png)
+* ![](img/intnet1.png)
+* ![](img/intnet2.png)
+* ![](img/intnet3.png)
+* ![](img/intnet4.png)
+
+**Host-only adapter connection**
+* ![](img/host-adapter1.png)
+* ![](img/host-adapter2.png)
+
+-----------
