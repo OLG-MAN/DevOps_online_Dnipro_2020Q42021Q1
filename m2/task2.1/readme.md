@@ -96,6 +96,8 @@
 * ![](img/008.png)
 * ![](img/009.png)
 
+-----------
+
 ### **Configuration of virtual machines**
 
 1. Explored VM Settings.
@@ -110,6 +112,8 @@
 * ![](img/105.png)
 * ![](img/106.png)
 * ![](img/107.png)
+
+-----------
 
 4. Configure different network modes for VM1, VM2.
 
@@ -140,3 +144,82 @@
 * ![](img/host-adapter2.png)
 
 -----------
+
+## **VBoxManage**
+
+1. list vms command
+* ![](img/vbm1.png)
+
+2. Showvminfo command
+* ![](img/vbm2.png)
+
+3. creatvm command
+* ![](img/vbm3.png)
+
+4. startvm command
+* ![](img/vbm4.png)
+
+5. modifyvm command
+* ![](img/vbm5.png)
+
+6. clonevm command
+* ![](img/vbm6.png)
+
+7. snapshot command
+* ![](img/vbm7.png)
+
+8. controlvm command
+* ![](img/vbm8.png)
+
+-----------
+
+## Part 3
+
+### **Vagrant**
+
+1. Create folders
+* ![](img/vag1.png)
+
+2. Initialized the environment with the default Vagrant box
+* ![](img/vag2.png)
+
+3. Start default vagrant vm 
+* ![](img/vag2.1.png)
+
+4. Connect to vm by ssh
+* ![](img/vag3.png)
+* ![](img/vag4.png)
+
+5. Check Date
+* ![](img/vag5.png)
+
+6. Stop and delete VM
+* ![](img/vag6.png)
+
+7. Create own vagrant box
+* ![](img/vag7.png)
+
+-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
