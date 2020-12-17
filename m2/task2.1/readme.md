@@ -1,6 +1,6 @@
 # Task 2.1
-### Part 1
-**Most Popular Hypervisors.**
+## Part 1
+### **Most Popular Hypervisors.**
 
 1. Type-1. Native Hypervisors.
 * VMware ESX
@@ -17,7 +17,8 @@
 * QEMU 
 * Parallels Desktop for Mac
 
-**Features of popular Hypervisors**
+### **Features of popular Hypervisors**
+
 1. Citrix XenServer
 * Multi-server management
 * Dynamic Memory Control
@@ -68,9 +69,9 @@
 **Comparsion table of hypervisors**
 * ![](img/Comparsion.png)
 
-### Part 2
+## Part 2
 
-**Work with VirtualBox**
+### **Work with VirtualBox**
 
 1. VirtualBox already installed on my host
 * ![](img/001.png)
@@ -95,7 +96,7 @@
 * ![](img/008.png)
 * ![](img/009.png)
 
-**Configuration of virtual machines**
+### **Configuration of virtual machines**
 
 1. Explored VM Settings.
 
@@ -112,29 +113,29 @@
 
 4. Configure different network modes for VM1, VM2.
 
-**Connection Table**
+### **Connection Table**
 * ![](img/table.png)
 
-**NAT mode connection.**
+### **NAT mode connection.**
 * ![](img/nat1.png)
 * ![](img/nat2.png)
 * ![](img/nat3.png)
 * ![](img/nat4.png)
 
-**Bridged mode connection**
+### **Bridged mode connection**
 * ![](img/bridge1.png)
 * ![](img/bridge2.png)
 * ![](img/bridge3.png)
 * ![](img/bridge4png)
 
-**Internal network connection**
+### **Internal network connection**
 * ![](img/intnet.png)
 * ![](img/intnet1.png)
 * ![](img/intnet2.png)
 * ![](img/intnet3.png)
 * ![](img/intnet4.png)
 
-**Host-only adapter connection**
+### **Host-only adapter connection**
 * ![](img/host-adapter1.png)
 * ![](img/host-adapter2.png)
 
