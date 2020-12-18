@@ -88,10 +88,37 @@
 
 * ![](img/wp2.png)
 
-**Create S3 Bucket**
+**S3 Bucket**
 
 1. Create Bucket
 
-* ![](img/backet1.png)
+* ![](img/bucket1.png)
 
-* ![](img/backet2.png)
+* ![](img/bucket2.png)
+
+2. Create user in IAM with and copy file to S3 bucket by aws cli
+
+* ![](img/cli1.png)
+
+* ![](img/cli2.png)
+
+* ![](img/cli3.png)
+
+* ![](img/cli4.png)
+
+* ![](img/cli5.png)
+
+* ![](img/cli6.png)
+
+**Create domain**
+
+1. Explore the possibilities.
+
+2. Also already created an instance for my needs with elastic IP and OpenVPN server.
+
+* ![](img/vpn1.png)
+
+* ![](img/vpn2.png)
+
+
+
