@@ -42,3 +42,19 @@
 
 * ![](img/EC6.png)
 
+**Instance volumes**
+
+1. Create and attach volume Disk_D
+
+* ![](img/vol1.png)
+
+* ![](img/vol2.png)
+
+2. Format and mount a Disk_D. Create file index.html
+
+* ![](img/vol3.png)
+
+* ![](img/vol4.png)
+
+
+
