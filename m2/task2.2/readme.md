@@ -92,6 +92,6 @@
 
 1. Create Bucket
 
-* ![](img/backet1.png)
+* ![](img/bucket1.png)
 
-* ![](img/backet2.png)
+* ![](img/bucket2.png)
