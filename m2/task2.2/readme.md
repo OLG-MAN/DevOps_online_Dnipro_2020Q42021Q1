@@ -125,5 +125,3 @@
 **Amazon ECS**
 
 1. 
-=======
->>>>>>> bae87bc08e487fdca2419ed3a3df51e8404b0d8f
