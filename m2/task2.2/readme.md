@@ -1,1 +1,44 @@
 # Task 2.2
+
+## AWS Basics
+
+**Lightsail Instance**
+
+1. Already register in AWS 
+
+* ![](img/LS1.png)
+
+2. Create Instance and make new SSH key for VM
+
+* ![](img/LS2.png)
+
+* ![](img/LS3.png)
+
+* ![](img/LS4.png)
+
+3. Connect to VM by aws web cli and mobaxterm
+
+* ![](img/LS5.png)
+
+* ![](img/LS6.png)
+
+* ![](img/LS7.png)
+
+**EC2 Instance**
+ 
+1. Create instance and create new ssh key.
+
+* ![](img/EC1.png)
+
+* ![](img/EC2.png)
+
+* ![](img/EC3.png)
+
+2. Connect to instance by aws web cli and mobaxterm
+
+* ![](img/EC4.png)
+
+* ![](img/EC5.png)
+
+* ![](img/EC6.png)
+
