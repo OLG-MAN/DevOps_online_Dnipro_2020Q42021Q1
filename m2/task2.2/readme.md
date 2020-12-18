@@ -56,5 +56,42 @@
 
 * ![](img/vol4.png)
 
+**Create instance from backup**
+
+1. Create image from instance snapshot
+
+* ![](img/bck1.png)
+
+* ![](img/bck2.png)
+
+* ![](img/bck3.png)
+
+2. Detach/Attach volume Linux-vm1 -> Linux-backup
+
+* ![](img/bck4.png)
+
+* ![](img/bck5.png)
+
+* ![](img/bck6.png)
+
+* ![](img/bck7.png)
+
+* ![](img/bck8.png)
 
 
+
+**Launch and configure a WordPress instance with Amazon Lightsail**
+
+1. Create WP instance in Lightsail
+
+* ![](img/wp1.png)
+
+* ![](img/wp2.png)
+
+**Create S3 Bucket**
+
+1. Create Bucket
+
+* ![](img/backet1.png)
+
+* ![](img/backet2.png)
