@@ -95,7 +95,6 @@
 * ![](img/bucket1.png)
 
 * ![](img/bucket2.png)
-<<<<<<< HEAD
 
 2. Create user in IAM with and copy file to S3 bucket by aws cli
 
@@ -124,6 +123,15 @@
 
 **Amazon ECS**
 
-1. 
-=======
->>>>>>> bae87bc08e487fdca2419ed3a3df51e8404b0d8f
+1. Create cluster and run demo app in ECS.
+
+* ![](img/ecs1.png)
+
+* ![](img/ecs2.png)
+
+* ![](img/ecs3.png)
+
+* ![](img/ecs4.png)
+
+* ![](img/ecs5.png)
+
