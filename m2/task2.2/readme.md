@@ -135,3 +135,44 @@
 
 * ![](img/ecs5.png)
 
+**Static website Amazon S3**
+
+* Already created and modified web-app for this task.
+  Link to my repo https://github.com/OLG-MAN/testapp-cicd-aws
+
+* Using Elastic Beanstalk (Python app), S3 bucket for zip files, and Github actions
+  for ci/cd proccess (main.yaml file).
+
+* All proccess going by this way
+  Github commit -> GH actions ci/cd parts -> creating zip file from code and 
+  copy to S3 bucket -> Create new version of EB and update from S3 bucket zip file.
+
+* ![](img/cicd1.png)
+
+* ![](img/cicd2.png)
+
+* ![](img/cicd3.png)
+
+* ![](img/cicd4.png)
+
+* ![](img/cicd5.png)
+
+* ![](img/cicd6.png)
+
+* ![](img/cicd7.png)
+
+* ![](img/cicd8.png)
+
+* ![](img/cicd9.png)
+
+* Site Link http://testdevapp-env.eba-mykqyihe.eu-central-1.elasticbeanstalk.com/
+
+----------------
+
+
+
+
+
+
+
+
