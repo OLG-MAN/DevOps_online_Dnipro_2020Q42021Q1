@@ -123,7 +123,6 @@
 
 **Amazon ECS**
 
-<<<<<<< HEAD
 1. Create cluster and run demo app in ECS.
 
 * ![](img/ecs1.png)
@@ -136,6 +135,3 @@
 
 * ![](img/ecs5.png)
 
-=======
-1. 
->>>>>>> 2492d6fa8f81e76c341eade5b36040f23e36eb01
