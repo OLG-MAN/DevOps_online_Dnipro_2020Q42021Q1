@@ -2,7 +2,7 @@
 
 ## AWS Basics
 
-**Lightsail Instance**
+##**Lightsail Instance**
 
 1. Already register in AWS 
 
@@ -24,7 +24,9 @@
 
 * ![](img/LS7.png)
 
-**EC2 Instance**
+
+
+##**EC2 Instance**
  
 1. Create instance and create new ssh key.
 
@@ -42,7 +44,9 @@
 
 * ![](img/EC6.png)
 
-**Instance volumes**
+
+
+##**Instance volumes**
 
 1. Create and attach volume Disk_D
 
@@ -56,7 +60,9 @@
 
 * ![](img/vol4.png)
 
-**Create instance from backup**
+
+
+##**Create instance from backup**
 
 1. Create image from instance snapshot
 
@@ -80,7 +86,7 @@
 
 
 
-**Launch and configure a WordPress instance with Amazon Lightsail**
+##**Launch and configure a WordPress instance with Amazon Lightsail**
 
 1. Create WP instance in Lightsail
 
@@ -88,7 +94,9 @@
 
 * ![](img/wp2.png)
 
-**S3 Bucket**
+
+
+##**S3 Bucket**
 
 1. Create Bucket
 
@@ -110,7 +118,9 @@
 
 * ![](img/cli6.png)
 
-**Create domain**
+
+
+##**Create domain**
 
 1. Explore the possibilities.
 
@@ -121,7 +131,9 @@
 * ![](img/vpn2.png)
 
 
-**Amazon ECS**
+
+
+##**Amazon ECS**
 
 1. Create cluster and run demo app in ECS.
 
@@ -135,7 +147,9 @@
 
 * ![](img/ecs5.png)
 
-**Static website Amazon S3**
+
+
+##**Static website Amazon S3**
 
 * Already created and modified web-app for this task.
   Link to my repo https://github.com/OLG-MAN/testapp-cicd-aws
@@ -168,11 +182,3 @@
 * Site Link http://testdevapp-env.eba-mykqyihe.eu-central-1.elasticbeanstalk.com/
 
 ----------------
-
-
-
-
-
-
-
-
