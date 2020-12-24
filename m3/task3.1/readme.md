@@ -1,0 +1,38 @@
+# Task 3.1
+
+## PART 1
+
+1. Install ad configure MySQL.
+
+* ![](img/db1.png)
+* ![](img/db2.png)
+* ![](img/db3.png)
+* ![](img/db4.png)
+
+2. Create Database and tables.
+
+* ![](img/db5.png)
+* ![](img/db6.png)
+* ![](img/db7.png)
+* ![](img/db8.png)
+
+3. Fill data in tables.
+
+* ![](img/db9.png)
+* ![](img/db10.png)
+
+4. SQL queries. DDL(Data Definition Lnguage).
+
+* ![](img/db10.png)
+* ![](img/db11.png)
+* ![](img/db12.png)
+* ![](img/db13.png)
+* ![](img/db14.png)
+* ![](img/db15.png)
+* ![](img/db16.png)
+* ![](img/db17.png)
+* ![](img/db18.png)
+* ![](img/db19.png)
+* ![](img/db20.png)
+
+
