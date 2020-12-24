@@ -23,7 +23,6 @@
 
 4. SQL queries. DDL(Data Definition Lnguage).
 
-* ![](img/db10.png)
 * ![](img/db11.png)
 * ![](img/db12.png)
 * ![](img/db13.png)
@@ -34,5 +33,9 @@
 * ![](img/db18.png)
 * ![](img/db19.png)
 * ![](img/db20.png)
+* ![](img/db21.png)
+* ![](img/db22.png)
+* ![](img/db23.png)
 
+5. SQL queries. DCL(Data Control Language).
 
