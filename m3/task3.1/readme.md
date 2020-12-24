@@ -37,5 +37,16 @@
 * ![](img/db22.png)
 * ![](img/db23.png)
 
-5. SQL queries. DCL(Data Control Language).
+5. SQL queries. DCL(Data Control Language). 
+* Create User queries. Privileges. Connect to DB from another user.
+
+* ![](img/db24.png)
+* ![](img/db25.png)
+* ![](img/db26.png)
+* ![](img/db27.png)
+* ![](img/db28.png)
+* ![](img/db29.png)
+* ![](img/db30.png)
+
+
 
