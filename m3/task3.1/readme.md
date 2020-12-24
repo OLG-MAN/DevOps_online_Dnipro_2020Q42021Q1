@@ -59,3 +59,6 @@
 * ![](img/db32.png)
 * ![](img/db33.png)
 
+2. Create AWS RDS DB.
+
+* ![](img/db34.png)
