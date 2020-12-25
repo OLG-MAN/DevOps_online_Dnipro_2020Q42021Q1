@@ -59,6 +59,18 @@
 * ![](img/db32.png)
 * ![](img/db33.png)
 
-2. Create AWS RDS DB.
+2. Create AWS RDS DB. Connect to RDS. Edit Security group and Public access.
 
 * ![](img/db34.png)
+* ![](img/db35.png)
+* ![](img/db36.png)
+* ![](img/db37.png)
+* ![](img/db38.png)
+* ![](img/db39.png)
+
+3. DynamoDB.
+
+* ![](img/db40.png)
+* ![](img/db41.png)
+
+--------------------
