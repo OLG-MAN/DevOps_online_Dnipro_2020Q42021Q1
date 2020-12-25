@@ -68,7 +68,11 @@
 * ![](img/db38.png)
 * ![](img/db39.png)
 
-3. DynamoDB.
+## PART 3
+
+### Dynamo DB.
+
+1.Create DynamoDB table.
 
 * ![](img/db40.png)
 * ![](img/db41.png)
