@@ -21,7 +21,7 @@
 
 ### 4. Create 3rd project. Testing Network.
    The difference with the hub connection is that packets from the hub go to each network member. Packets from the switch go to the destination computer. 
-   
+
 * ![](img/net31.png)
 * ![](img/net32.png)
 * ![](img/net33.png)
@@ -34,7 +34,6 @@
 ### 6. Dividing the network into two subnets. Testing.
 
 * ![](img/net36.png)
-* ![](img/net37.png)
 * ![](img/net38.png)
 
 ### Also in "projects" folder all saved projects from task.
