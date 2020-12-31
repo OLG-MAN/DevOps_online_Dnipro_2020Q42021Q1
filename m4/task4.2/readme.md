@@ -30,5 +30,27 @@
 
 * ![](img/net25.png)
 
-### 2. Create and testing task 3 project. 
+### 3. Create and testing task 3 project. 
 
+* All Project.
+
+* ![](img/net31.png)
+
+* Write vlan db in "middle" switch.
+
+* ![](img/net32.png)
+* ![](img/net33.png)
+
+* Vlans in Router.
+
+* ![](img/net34.png)
+
+* Testing Network.
+
+* ![](img/net35.png)
+
+---------------------------------------
+
+All projects at the same folder.
+
+---------------------------------------
