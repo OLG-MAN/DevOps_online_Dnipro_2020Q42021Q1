@@ -4,7 +4,7 @@
 
 ### 1. Create and testing task 1 project. 
 
-* ### All Projrct view. 
+* ### All Project view. 
 
 * ![](img/net1.png)
 
