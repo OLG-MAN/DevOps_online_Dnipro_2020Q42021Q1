@@ -40,7 +40,7 @@
 
 * ![](img/cmd14.png)
 
-5. ### Explore man and help commands.
+5. ### Explore 'man' and 'help' commands.
 
 * ![](img/cmd15.png)
 
@@ -48,7 +48,7 @@
 
 * ![](img/cmd17.png)
 
-6. ### Explore and use more and less commands.
+6. ### Explore and use 'more' and 'less' commands.
 
 * ![](img/cmd18.png)
 
@@ -60,13 +60,13 @@
 
 * ![](img/cmd22.png)
 
-7. ### Finger command.
+7. ### 'finger' command.
 
 * ![](img/cmd23.png)
 
 * ![](img/cmd24.png)
 
-8. ### ls command.
+8. ### 'ls' command.
 
 * ![](img/cmd25.png)
 
@@ -77,4 +77,45 @@
 ----------------------------------
 
 ## Part 2.
+
+1. ### 'tree' command, install, use with different keys.
+
+* ![](img/cmd28.png)
+
+* ![](img/cmd29.png)
+
+* ![](img/cmd30.png)
+
+* ![](img/cmd32.png)
+
+* ![](img/cmd33.png)
+
+* ![](img/cmd34.png)
+
+2. ### 'file' command.
+
+* ![](img/cmd35.png)
+
+* ![](img/cmd36.png)
+
+3. ### Navigation commands. Absolute and relative paths. Go to "home" directory by 'cd' command.
+
+* ![](img/cmd37.png)
+
+* ![](img/cmd38.png)
+
+4. ### 'ls' command different keys. 'l' key - it's long listing format. 'a' 'all'  key - it's do not ignore entries with '.' 
+
+* ![](img/cmd25.png)
+
+* ![](img/cmd26.png)
+
+* ![](img/cmd27.png)
+
+5. ###
+
+
+
+
+
 
