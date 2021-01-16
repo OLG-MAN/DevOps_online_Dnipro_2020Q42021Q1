@@ -122,7 +122,79 @@
 
 * ![](img/cmd42.png)
 
-6. ### link operations with files.
+6. ### link operations with files. After deleting source file symlink is not working.
+
+
+* ![](img/cmd42.png)
+
+* ![](img/cmd43.png)
+
+* ![](img/cmd44.png)
+
+* ![](img/cmd45.png)
+
+* ![](img/cmd46.png)
+
+* ![](img/cmd47.png)
+
+7. ### 'locate' command
+
+* ![](img/cmd48.png)
+
+* ![](img/cmd49.png)
+
+8. ### Partitions mounted in system
+
+* ![](img/cmd50.png)
+
+* ![](img/cmd51.png)
+
+9. ### 'wc' command
+
+* ![](img/cmd52.png)
+
+* ![](img/cmd53.png)
+
+10. 11.  ### 'find' command. 'grep' command
+
+* ![](img/cmd54.png)
+
+* ![](img/cmd55.png)
+
+* ![](img/cmd56.png)
+
+* ![](img/cmd57.png)
+
+12. ### Save content in file by stream operations.
+
+* ![](img/cmd58.png)
+
+* ![](img/cmd59.png)
+
+13. ### Type of devices in system, hardware information.
+
+* ![](img/cmd60.png)
+
+* ![](img/cmd61.png)
+
+* ![](img/cmd62.png)
+
+* ![](img/cmd63.png)
+
+14. ### Type of files in system. Types - text files, executable files, images files, archive files, library (program) files, etc.
+
+* ![](img/cmd35.png)
+
+* ![](img/cmd36.png)
+
+15. ### Find last modified files, save them to txt file and list of 5 recent files.
+
+* ![](img/cmd64.png)
+
+* ![](img/cmd65.png)
+
+-----------------------------
+
 
 
 
