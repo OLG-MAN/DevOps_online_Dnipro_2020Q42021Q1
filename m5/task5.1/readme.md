@@ -112,7 +112,21 @@
 
 * ![](img/cmd27.png)
 
-5. ###
+5. ### CRUD operations with folders and files.
+
+* ![](img/cmd39.png)
+
+* ![](img/cmd40.png)
+
+* ![](img/cmd41.png)
+
+* ![](img/cmd42.png)
+
+6. ### link operations with files.
+
+
+
+
 
 
 
