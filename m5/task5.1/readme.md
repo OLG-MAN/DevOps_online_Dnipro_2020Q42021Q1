@@ -2,7 +2,7 @@
 
 ## Linux
 
-### Part 1.
+## Part 1.
 
 1. ### Log in to the system as root.
 
@@ -42,19 +42,39 @@
 
 5. ### Explore man and help commands.
 
-* ![]()
+* ![](img/cmd15.png)
 
+* ![](img/cmd16.png)
+
+* ![](img/cmd17.png)
 
 6. ### Explore and use more and less commands.
 
-* ![]()
+* ![](img/cmd18.png)
+
+* ![](img/cmd19.png)
+
+* ![](img/cmd20.png)
+
+* ![](img/cmd21.png)
+
+* ![](img/cmd22.png)
 
 7. ### Finger command.
 
-* ![]()
+* ![](img/cmd23.png)
+
+* ![](img/cmd24.png)
 
 8. ### ls command.
 
-* ![]()
+* ![](img/cmd25.png)
 
+* ![](img/cmd26.png)
+
+* ![](img/cmd27.png)
+
+----------------------------------
+
+## Part 2.
 
