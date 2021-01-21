@@ -61,12 +61,12 @@ username: pswd: uid: gid: uid comments: directory: shell.
 
 * ![](img/sys11.png)
 
-4. ### What are the commands for adding a user to the system? What are the basic parameters required to create a user?
+5. ### What are the commands for adding a user to the system? What are the basic parameters required to create a user?
 
 * Basic commands to create a user it's 'useradd -m user' after change password 'passwd user' and add to some groups if need 'usermod -aG Group user'
 
-5. ### How do I change the name (account name) of an existing user?
+6. ### How do I change the name (account name) of an existing user?
 
 * We can change it by command 'usermod -l new_user_name old_user_name'
 
-6. ### 
+7. ### 
