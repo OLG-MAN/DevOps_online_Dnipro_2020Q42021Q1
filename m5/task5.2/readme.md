@@ -129,10 +129,27 @@ username: pswd: uid: gid: uid comments: directory: shell.
 
 * ![](img/sys25.png)
 
-* ![](img/sys26.png)
-
 * ![](img/sys27.png)
+
+* ![](img/sys26.png)
 
 17. ### What file attributes should be present in the command script?
 
+File attributes that enable further customization of allowable file operations. Example of command '# chattr +i /path/file'.
+Available attributes are:
+a: append only
+c: compressed
+d: no dump
+e: extent format
+i: immutable
+j: data journalling
+s: secure deletion
+t: no tail-merging
+u: undeletable
+A: no atime updates
+C: no copy on write
+D: synchronous directory updates
+S: synchronous updates
+T: top of directory hierarchy
 
+-----------------------------------------------------
