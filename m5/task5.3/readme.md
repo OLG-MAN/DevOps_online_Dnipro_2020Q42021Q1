@@ -13,6 +13,10 @@
 
 2. ### How many states could has a process in Linux?
 
+* Created 
+* Ready, Waiting
+* Running 
+* Terminated
 
 3. ### What is a proc file system?
 
@@ -29,7 +33,13 @@
 
 5. ### Use the ps command to get information about the process. The information should be as follows: the owner of the process, the arguments with which the process was launched for execution, the group owner of this process, etc. 
 
-* 'ps'
+* 'ps' - default proccess info
+* 'ps aux' - short summary of the active processes
+* 'ps -eF" - all proccess full and lonf info
+* 'ps -efH' - all processes with tree mode, show child processes
+* 'ps -efL' - view the list of processes with threads
+* 'ps -fu username' - list of processes for a specific user
+*  'ps fax'  show hierarchical relationships between parent and child processes
 
 6. ### How to define kernel processes and user processes?
 
@@ -39,22 +49,72 @@
 
 7. ### Print the list of processes to the terminal. Briefly describe the statuses of the processes. What condition are they in, or can they be arriving in?
 
+* ![](img/sys1.png)
+
+* D Uninterruptible sleep (usually IO)
+* R Running or runnable (on run queue)
+* S Interruptible sleep (waiting for an event to complete)
+* T Stopped, either by a job control signal or because it is being traced.
+* W paging (not valid since the 2.6.xx kernel)
+* X dead (should never be seen)
+* Z Defunct ("zombie") process, terminated but not reaped by its parent.
+   
+* < high-priority (not nice to other users)
+* N low-priority (nice to other users)
+* L has pages locked into memory (for real-time and custom IO)
+* s is a session leader
+* l is multi-threaded (using CLONE_THREAD, like NPTL pthreads do)
+
+
 8. ### Display only the processes of a specific user.
+
+* ![](img/sys2.png)
 
 9. ### What utilities can be used to analyze existing running tasks (by analyzing the help for the ps command)?
 
+* List of utilities.
+1. top – Linux Process Monitoring
+2. htop - also linux process monitoring
+3. lotop - process monitoring with  real time Disk I/O and processes
+
 10. ### What information does top command display?
+
+* processes information. system monitoring.
 
 12. ### Display the processes of the specific user using the top command.
 
+* ![](img/sys3.png)
+
 12. ### What interactive commands can be used to control the top command? Give a couple of examples.
+
+* top -h - Shows top command syntax
+* top -b - Batch Mode
+* top -s - Secure Mode
+* top -d seconds.tenths - 
+* press z - option in running top command will display running process in color
 
 13. ### Sort the contents of the processes window using various parameters (for example, the amount of processor time taken up, etc.)
 
+* ![](img/sys4.png)
+* ![](img/sys5.png)
+* ![](img/sys6.png)
+* ![](img/sys7.png)
+* ![](img/sys8.png)
+* ![](img/sys9.png)
+
 14. ### Concept of priority, what commands are used to set priority?
+
+* The linux process priority means how much more CPU time will be devoted to this process compared to others. So we can very finely tune which program will run faster and which will be slower. The priority value can range from '19' (minimum priority) to '-20' - the maximum priority of the linux process. We can reduce the priority with the rights of a regular user, but to increase it, you need superuser rights.
+
+* To set priority we can use command 'nice'. 
+  Example 'nice -n 10 apt-get upgrade'
 
 15. ### Can I change the priority of a process using the top command? If so, how?
 
+* Use 'top' command, press r. Give PID value of the process to change the process value. Set renice value (from -20 to +19)
+
 16. ### Examine the kill command. How to send with the kill command process control signal?  Give an example of commonly used signals.
+
+
 
 17. ### Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to demonstrate the process control mechanism with fg, bg.
