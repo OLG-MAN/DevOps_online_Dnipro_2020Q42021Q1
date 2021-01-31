@@ -1,6 +1,7 @@
 # Task 5.3
 
 ## Linux
+### Part 1
 
 1. ### How many states could has a process in Linux?
 
@@ -115,6 +116,38 @@
 
 16. ### Examine the kill command. How to send with the kill command process control signal?  Give an example of commonly used signals.
 
-
+* Basic template of 'kill' command it's 'kill options PID'
+* 'kill 3012' - send SIGTERM to process ID 3012
+* 'kill -KILL 3121' or 'kill -9 3121' - send  SIGKILL to process ID 3121
+* 'kill -9 3012 3121 3142' - multiple kill of processes
 
 17. ### Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to demonstrate the process control mechanism with fg, bg.
+
+* This commands uses for background processes. 
+* 'jobs -l' - show processes number and background ID of process, state of process
+* 'fg' - back process from the background 
+* 'bg' - change state of process to backgound
+* 'nohup' - start a hang-protected command with output to non-tty (ignores loss of SIGHUP communications).
+
+
+### Part 1
+1. ### Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
+
+* 
+
+2. ### Implement basic SSH settings to increase the security of the client-server connection (at least
+
+
+
+3. ### List the options for choosing keys for encryption in SSH. Implement 3 of them.
+
+
+
+4. ### Implement port forwarding for the SSH client from the host machine to the guest Linux virtual machine behind NAT.
+
+
+
+5. ### Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result.
+
+
+---------------------------------------------------------
