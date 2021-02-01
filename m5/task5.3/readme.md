@@ -128,12 +128,33 @@
 * 'fg' - back process from the background 
 * 'bg' - change state of process to backgound
 * 'nohup' - start a hang-protected command with output to non-tty (ignores loss of SIGHUP communications).
-
+* ![](img/sys10.png)
+* ![](img/sys11.png)
 
 ### Part 1
 1. ### Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
 
-* 
+* Check SSH install status
+ 'Get-WindowsCapability -Online | ? Name -like 'OpenSSH.Client*' 
+
+* ![](img/sys11.png)
+
+* If SSH not instaled we can use 
+  'dism /Online /Add-Capability /CapabilityName:OpenSSH.Client~~~~0.0.1.0' in powershell
+
+* ![](img/sys12.png)
+
+* 'ssh' show options of utility. If 'ssh' command not working after install, add path in env.
+
+* ![](img/sys16.png)
+* ![](img/sys13.png)
+* ![](img/sys14.png)
+
+* 'ssh username@host' - default ssh connection (port 22)
+* 'ssh username@host -p portnumber' - ssh connection with custom port
+* 'ssh root@192.168.1.202' - connection to linux host under root
+
+
 
 2. ### Implement basic SSH settings to increase the security of the client-server connection (at least
 
