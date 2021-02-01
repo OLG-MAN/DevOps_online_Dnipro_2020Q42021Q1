@@ -34,6 +34,8 @@
    $ cat /proc/cpuinfo | grep processor | wc -l	    count the number of processing units
    $ cat /proc/cpuinfo | grep 'core id'			    show individual cores
 
+* ![](img/sys40.png)
+
 5. ### Use the ps command to get information about the process. The information should be as follows: the owner of the process, the arguments with which the process was launched for execution, the group owner of this process, etc. 
 
 * 'ps' - default proccess info
