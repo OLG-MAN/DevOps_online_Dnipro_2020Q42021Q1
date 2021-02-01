@@ -12,12 +12,14 @@
 * Stopped (T)
 * Zombie (Z)  
 
-2. ### How many states could has a process in Linux?
+2. ### Examine the pstree command. Make output (highlight) the chain (ancestors) of the current process.
+* Use 'pstree' command
+* ![](img/sys37.png)
 
-* Created 
-* Ready, Waiting
-* Running 
-* Terminated
+* pstree of different procceses
+
+* ![](img/sys38.png)
+* ![](img/sys39.png)
 
 3. ### What is a proc file system?
 
@@ -131,7 +133,7 @@
 * ![](img/sys10.jpg)
 * ![](img/sys11.jpg)
 
-### Part 1
+### Part 2
 1. ### Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
 
 * Check SSH install status
