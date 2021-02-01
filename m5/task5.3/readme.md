@@ -50,7 +50,7 @@
 
 7. ### Print the list of processes to the terminal. Briefly describe the statuses of the processes. What condition are they in, or can they be arriving in?
 
-* ![](img/sys1.png)
+* ![](img/sys1.jpg)
 
 * D Uninterruptible sleep (usually IO)
 * R Running or runnable (on run queue)
@@ -69,7 +69,7 @@
 
 8. ### Display only the processes of a specific user.
 
-* ![](img/sys2.png)
+* ![](img/sys2.jpg)
 
 9. ### What utilities can be used to analyze existing running tasks (by analyzing the help for the ps command)?
 
@@ -84,7 +84,7 @@
 
 12. ### Display the processes of the specific user using the top command.
 
-* ![](img/sys3.png)
+* ![](img/sys3.jpg)
 
 12. ### What interactive commands can be used to control the top command? Give a couple of examples.
 
@@ -96,12 +96,12 @@
 
 13. ### Sort the contents of the processes window using various parameters (for example, the amount of processor time taken up, etc.)
 
-* ![](img/sys4.png)
-* ![](img/sys5.png)
-* ![](img/sys6.png)
-* ![](img/sys7.png)
-* ![](img/sys8.png)
-* ![](img/sys9.png)
+* ![](img/sys4.jpg)
+* ![](img/sys5.jpg)
+* ![](img/sys6.jpg)
+* ![](img/sys7.jpg)
+* ![](img/sys8.jpg)
+* ![](img/sys9.jpg)
 
 14. ### Concept of priority, what commands are used to set priority?
 
@@ -128,8 +128,8 @@
 * 'fg' - back process from the background 
 * 'bg' - change state of process to backgound
 * 'nohup' - start a hang-protected command with output to non-tty (ignores loss of SIGHUP communications).
-* ![](img/sys10.png)
-* ![](img/sys11.png)
+* ![](img/sys10.jpg)
+* ![](img/sys11.jpg)
 
 ### Part 1
 1. ### Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
@@ -137,20 +137,20 @@
 * Check SSH install status
  'Get-WindowsCapability -Online | ? Name -like 'OpenSSH.Client*' 
 
-* ![](img/sys12.png)
+* ![](img/sys12.jpg)
 
 * If SSH not instaled we can use 
   'dism /Online /Add-Capability /CapabilityName:OpenSSH.Client~~~~0.0.1.0' in powershell
 
-* ![](img/sys13png)
+* ![](img/sys13.jpg)
 
 * 'ssh' show options of utility. If 'ssh' command not working after install, add path in env.
 
-* ![](img/sys16.png)
+* ![](img/sys16.jpg)
 
-* ![](img/sys14.png)
+* ![](img/sys14.jpg)
 
-* ![](img/sys15.png)
+* ![](img/sys15.jpg)
 
 * 'ssh username@host' - default ssh connection (port 22)
 * 'ssh username@host -p portnumber' - ssh connection with custom port
@@ -158,21 +158,21 @@
 
 * Check ssh status and Connect to Kali from win10 by Mobaxterm
 
-* ![](img/sys17.png)
+* ![](img/sys17.jpg)
 
-* ![](img/sys18.png)
+* ![](img/sys18.jpg)
 
-* ![](img/sys19.png)
+* ![](img/sys19.jpg)
 
 * Start ssh service on windows
 
-* ![](img/sys21.png)
+* ![](img/sys21.jpg)
 
-* ![](img/sys22.png)
+* ![](img/sys22.jpg)
 
 * Connect from kali(terminal) to win10 and from win10(moba)->to kali(in moba)->to win10
 
-* ![](img/sys23.png)
+* ![](img/sys23.jpg)
 
 2. ### Implement basic SSH settings to increase the security of the client-server connection.
 
@@ -191,8 +191,8 @@
 * Connect to kali (VM) from Win10 (MobaXterm) using wireshark on kali 
 * In sort packet logs (sshv2) we can see all stages of authorization, key exchange (clent-server), and exchange of encrypted packets.
 
-* ![](img/sys24.png)
+* ![](img/sys24.jpg)
 
-* ![](img/sys25.png)
+* ![](img/sys25.jpg)
 
 ---------------------------------------------------------
