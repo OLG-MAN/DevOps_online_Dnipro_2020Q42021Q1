@@ -176,15 +176,80 @@
 
 2. ### Implement basic SSH settings to increase the security of the client-server connection.
 
+* We can change default port in 'nano /etc/ssh/sshd_config' and after retart ssh 'service sshd restart'
+
+* Disable Empty Passwords, open /etc/ssh/sshd_config file and update the line:
+  'PermitEmptyPasswords no'
+
+* Also can change count of 'MaxAuthTries' and 'MaxSessions' in sshd
+
+* Disable Root Logins. To disable Root Logins, we need to edit the SSHD configuration file. Open /etc/ssh/sshd_config file. Change line #PermitRootLogin to PermitRootLogin no
+
+* Use only ssh protocol 2 
+  'nano /etc/ssh/sshd_config' line #Protocol 2, 1 change to Protocol 2
+
+* Open only to specific clients. 
+  'iptables -A INPUT -p tcp -s specIP --dport 22 -j ACCEPT' open ony for specIP client.
+
+  Also you can record all input IPs if ssh open globally
+  'iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --set --name ssh –rsource'
+
+  And verifies if that IP address has tried to connect three times or more within the last 90 seconds. If it hasn’t, then the packet is accepted.
+  'iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent ! --rcheck --seconds 90 --hitcount 3 --name ssh --rsource -j ACCEPT'
+
+* Use keys for authentication. 
+  Create key - 'ssh-keygen -t rsa' 
+
+  Secure copy to remote-host - 'scp –p id_rsa.pub user@host'
+
+  Copy public key right place - 'ssh remoteuser@remotehost mkdir ~/.ssh chmod 700 ~/.ssh cat id_rsa.pub >> ~/.ssh/authorized_keys chmod 600 ~/.ssh/authorized_keys mv id_rsa.pub ~/.ssh logout'
+
+  Delete delete the public key from the server, otherwise the SSH client won’t allow to login to the server
+  'rm id_rsa.pub'
+
+  set file permissions on the server chmod '700 ~/.ssh chmod' and  '600 ~/.ssh/authorized_keys'
 
 
 3. ### List the options for choosing keys for encryption in SSH. Implement 3 of them.
 
+* We can find some key options in sshd_config file
 
+* ![](img/sys26.png)
+
+* Creating different keys
+* Default rsa key
+
+* ![](img/sys27.png)
+
+* ![](img/sys28.png)
+
+* RSA 4096
+
+* ![](img/sys29.png)
+
+* RSA with multiple encripting, to help prevent brute force attack. And comment key.
+
+* ![](img/sys30.png)
+
+* More contemporary key Using the Edwards Twisted Curve algorithm we have the best of both sides, a small 256 bits key but very secure transfer due the nature of the key.
+
+* ![](img/sys31.png)
 
 4. ### Implement port forwarding for the SSH client from the host machine to the guest Linux virtual machine behind NAT.
 
+* Check ssh status, and IP address.
 
+* ![](img/sys32.png)
+
+* In Network setings add config to port forwrding.
+
+* ![](img/sys33.png)
+* ![](img/sys34.png)
+
+* Connусе to guest VM behind NAT
+
+* ![](img/sys35.png)
+* ![](img/sys36.png)
 
 5. ### Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result.
 
