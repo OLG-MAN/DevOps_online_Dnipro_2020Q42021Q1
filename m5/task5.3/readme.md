@@ -137,26 +137,44 @@
 * Check SSH install status
  'Get-WindowsCapability -Online | ? Name -like 'OpenSSH.Client*' 
 
-* ![](img/sys11.png)
+* ![](img/sys12.png)
 
 * If SSH not instaled we can use 
   'dism /Online /Add-Capability /CapabilityName:OpenSSH.Client~~~~0.0.1.0' in powershell
 
-* ![](img/sys12.png)
+* ![](img/sys13png)
 
 * 'ssh' show options of utility. If 'ssh' command not working after install, add path in env.
 
 * ![](img/sys16.png)
-* ![](img/sys13.png)
+
 * ![](img/sys14.png)
+
+* ![](img/sys15.png)
 
 * 'ssh username@host' - default ssh connection (port 22)
 * 'ssh username@host -p portnumber' - ssh connection with custom port
 * 'ssh root@192.168.1.202' - connection to linux host under root
 
+* Check ssh status and Connect to Kali from win10 by Mobaxterm
 
+* ![](img/sys17.png)
 
-2. ### Implement basic SSH settings to increase the security of the client-server connection (at least
+* ![](img/sys18.png)
+
+* ![](img/sys19.png)
+
+* Start ssh service on windows
+
+* ![](img/sys21.png)
+
+* ![](img/sys22.png)
+
+* Connect from kali(terminal) to win10 and from win10(moba)->to kali(in moba)->to win10
+
+* ![](img/sys23.png)
+
+2. ### Implement basic SSH settings to increase the security of the client-server connection.
 
 
 
