@@ -188,5 +188,11 @@
 
 5. ### Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result.
 
+* Connect to kali (VM) from Win10 (MobaXterm) using wireshark on kali 
+* In sort packet logs (sshv2) we can see all stages of authorization, key exchange (clent-server), and exchange of encrypted packets.
+
+* ![](img/sys24.png)
+
+* ![](img/sys25.png)
 
 ---------------------------------------------------------
