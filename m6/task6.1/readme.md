@@ -4,7 +4,7 @@
 ### AWS VPC 
 ### Using this model for VPC and instances
 
-* ![](img/VPC1010.png)
+![](img/VPC1010.png)
 
 1. ### Creating VPC.
  
