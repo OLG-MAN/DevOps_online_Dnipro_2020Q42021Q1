@@ -63,7 +63,7 @@
 
 ![](img/vpc23.png)
 
-![](img/vpc241.png)
+![](img/vpc24.png)
 
 ![](img/vpc25.png)
 
