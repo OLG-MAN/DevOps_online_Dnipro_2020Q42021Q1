@@ -71,9 +71,9 @@
 
 ![](img/vpc27.png)
 
-![](img/vpc28png)
+![](img/vpc28.png)
 
-![](img/vpc29png)
+![](img/vpc29.png)
 
 ### 7. Checking and testing network.
 
