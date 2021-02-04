@@ -6,14 +6,14 @@
 
 ![](img/VPC1010.png)
 
-1. ### Creating VPC.
+### 1. ### Creating VPC.
  
-2. ### Creating 2 Subnets and gateway.
+### 2. ### Creating 2 Subnets and gateway.
 
-3. ### Create NAT gateway.
+### 3. ### Create NAT gateway.
 
-4. ### Edit route tables.
+### 4. ### Edit route tables.
 
-5. ### Create Host(Bastion) and 2 instances (nat-internal and internnal).
+### 5. ### Create Host(Bastion) and 2 instances (nat-internal and internnal).
 
-6. ### Checking and testing network.
+### 6. ### Checking and testing network.
