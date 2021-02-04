@@ -36,8 +36,6 @@
 
 ![](img/vpc15.png)
 
-![](img/vpc10.png)
-
 ### 4. Edit and assossiate route tables for Public, Private(nat-iternal), Internal(internal) subnets.
 
 ![](img/vpc11.png)
@@ -53,6 +51,30 @@
 ![](img/vpc19.png)
 
 
-### 5. Create Host(Bastion) in 'public' subnet and 2 instances in subnets 'nat-internal' and 'internnal'.
+### 5. Create Seccurity group for instances in VPC. 
 
-### 6. Checking and testing network.
+![](img/vpc20.png)
+
+![](img/vpc21.png)
+
+### 6. Create Host(Bastion) in 'public' subnet and 2 instances in subnets 'nat-internal' and 'internnal'. Add created before sec group and pem key for all instances.
+
+![](img/vpc22.png)
+
+![](img/vpc23.png)
+
+![](img/vpc241.png)
+
+![](img/vpc25.png)
+
+![](img/vpc26.png)
+
+![](img/vpc27.png)
+
+![](img/vpc28png)
+
+![](img/vpc29png)
+
+### 7. Checking and testing network.
+
+
