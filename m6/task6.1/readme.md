@@ -34,7 +34,6 @@
 
 ![](img/vpc14.png)
 
-![](img/vpc15.png)
 
 ### 4. Edit and assossiate route tables for Public, Private(nat-iternal), Internal(internal) subnets.
 
@@ -76,4 +75,33 @@
 ![](img/vpc29.png)
 
 ### 7. Checking and testing network.
+
+* Connecting to host(bastion) in Public-subnet. Check ping, IP.
+
+![](img/vpc30.png)
+
+![](img/vpc31.png)
+
+![](img/vpc32.png)
+
+* Copy key.pem and connect to host in Private-subnet.
+
+![](img/vpc33.png)
+
+![](img/vpc34.png)
+
+![](img/vpc35.png)
+
+* Check ping and IP through NAT in Private-subnet host.
+
+![](img/vpc36.png)
+
+![](img/vpc39.png)
+
+* Connecting to host in Intenal-subnet. Check ping, ip.
+
+![](img/vpc37.png)
+
+![](img/vpc38.png)
+
 
