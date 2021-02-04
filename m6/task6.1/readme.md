@@ -1,19 +1,58 @@
 # Task 6.1
 
 ## Network 
-### AWS VPC 
+### Make Task with AWS VPC 
 ### Using this model for VPC and instances
 
+![](img/vpc101.png)
 
+### 1. Creating VPC and Intenet gateway for VPC.
 
-### 1. Creating VPC.
+![](img/vpc1.png)
+
+![](img/vpc2.png)
+
+![](img/vpc3.png)
+
+![](img/vpc4.png)
  
-### 2. Creating 3 Subnets (Public,Private(nat-iternal),internal(internal)) and Gateway gor VPC.
+### 2. Creating 3 Subnets Public, Private(nat-internal), Internal(internal). Auto-assign public IP for Public subnet.
 
-### 3. Create NAT gateway for Private(nat-iternal) Subnet.
+![](img/vpc5.png)
 
-### 4. Edit route tables Public,Private(nat-iternal),internal(internal).
+![](img/vpc6.png)
 
-### 5. Create Host(Bastion) in public subnet and 2 instances in subnets nat-internal and internnal.
+![](img/vpc7.png)
+
+![](img/vpc8.png)
+
+![](img/vpc9.png)
+
+![](img/vpc10.png)
+
+### 3. Create NAT gateway for Private(nat-internal) Subnet.
+
+![](img/vpc14.png)
+
+![](img/vpc15.png)
+
+![](img/vpc10.png)
+
+### 4. Edit and assossiate route tables for Public, Private(nat-iternal), Internal(internal) subnets.
+
+![](img/vpc11.png)
+
+![](img/vpc12.png)
+
+![](img/vpc13.png)
+
+![](img/vpc17.png)
+
+![](img/vpc18.png)
+
+![](img/vpc19.png)
+
+
+### 5. Create Host(Bastion) in 'public' subnet and 2 instances in subnets 'nat-internal' and 'internnal'.
 
 ### 6. Checking and testing network.
