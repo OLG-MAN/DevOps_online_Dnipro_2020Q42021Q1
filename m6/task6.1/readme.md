@@ -4,16 +4,16 @@
 ### Make Task with AWS VPC 
 ### Using this model for VPC and instances
 
-![](img/vpc101.png)
+![](img/VPC1010.png)
 
 ### 1. Creating VPC and Intenet gateway for VPC.
 
 ![](img/vpc1.png)
-------------
+
 ![](img/vpc2.png)
------------
+
 ![](img/vpc3.png)
------------
+
 ![](img/vpc4.png)
  
 ### 2. Creating 3 Subnets Public, Private(nat-internal), Internal(internal). Auto-assign public IP for Public subnet.
