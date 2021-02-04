@@ -30,7 +30,7 @@
 
 ![](img/vpc10.png)
 
-### 3. Create NAT gateway for Private(nat-internal) Subnet.
+### 3. Create NAT gateway for Private-subnet(nat-internal).
 
 ![](img/vpc14.png)
 
