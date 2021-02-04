@@ -2,7 +2,7 @@
 
 ## Network 
 ### Make Task with AWS VPC 
-### Using this model for VPC and instances
+### Create model for VPC and instances.
 
 ![](img/VPC1010.png)
 
@@ -104,4 +104,25 @@
 
 ![](img/vpc38.png)
 
+---------------------------------
+### QUESTIONS
 
+### 1. Determine, which resource has an IP address 8.8.8.8. 
+
+* It's Google DNS servers
+
+### 2. Determine, which IP address belongs to resource epam.com
+
+![](img/vpc40.png)
+
+### 3. Determine the default gateway for your HOST and display routing table.
+
+* For AWS VPC i think this route
+
+![](img/vpc41.png)
+
+### 4. Trace the route to google.com
+
+![](img/vpc42.png)
+
+----------------------------------
