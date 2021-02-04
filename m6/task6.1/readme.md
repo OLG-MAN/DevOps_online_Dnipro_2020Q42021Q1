@@ -4,16 +4,16 @@
 ### AWS VPC 
 ### Using this model for VPC and instances
 
-![](img/VPC1010.png)
+
 
 ### 1. Creating VPC.
  
-### 2. Creating 2 Subnets and gateway.
+### 2. Creating 3 Subnets (Public,Private(nat-iternal),internal(internal)) and Gateway gor VPC.
 
-### 3. Create NAT gateway.
+### 3. Create NAT gateway for Private(nat-iternal) Subnet.
 
-### 4. Edit route tables.
+### 4. Edit route tables Public,Private(nat-iternal),internal(internal).
 
-### 5. Create Host(Bastion) and 2 instances (nat-internal and internnal).
+### 5. Create Host(Bastion) in public subnet and 2 instances in subnets nat-internal and internnal.
 
 ### 6. Checking and testing network.
