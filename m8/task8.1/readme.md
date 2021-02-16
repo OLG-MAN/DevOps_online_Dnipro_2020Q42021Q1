@@ -2,14 +2,53 @@
 
 ## Jenkins CI/CD
 
-### 1. Launch instance with Jenkins. Cofigure it. 
+### 1. Already created instance with Jenkins and Configure it. And create and configure deploy host. Install Apache, ssh, git.
 
-![](img/img.png)
+![](img/jen1.png)
 
-### 2. Configure test host. Install Apache, ssh, git.
+![](img/jen2.png)
 
-### 3. Configure Jenkins Build. GitHub webhook, credentials.
+![](img/jen3.png)
 
-### 4. Push commit in GitHub, start build. Make changes on test host. 
+### 3. Configure "over SSH plugin" credentials. Add deploy host.
+
+![](img/jen4.png)
+
+### 4. Configure project build. Add GitHub project. Use Github webhook to Jenkins build. Add ssh server for file copy.
+
+![](img/jen5.png)
+
+![](img/jen6.png)
+
+![](img/jen7.png)
+
+![](img/jen8.png)
+
+### 3. Check already deploy web page on deploy host. Copy Github repo to localhost for editing.  
+
+![](img/jen9.png)
+
+![](img/jen10.png)
+
+![](img/jen11.png)
+
+### 4. Editing webpage, change color in webpage blocks. Check on localhost.
+
+![](img/jen12.png)
+
+![](img/jen13.png)
+
+### 5. Push commit. Build started and successfully deployed on deploy host. Also have a small test in Jenkins build to check that word "EPAM" use two times in cv.
+
+![](img/jen14.png)
+
+![](img/jen15.png)
+
+![](img/jen16.png)
+
+![](img/jen17.png)
+
+![](img/jen18.png)
+
 
 ----------------------------------
