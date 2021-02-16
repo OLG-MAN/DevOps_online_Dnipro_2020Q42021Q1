@@ -14,7 +14,7 @@
 
 ![](img/jen4.png)
 
-### 4. Configure project build. Add GitHub project. Use Github webhook to Jenkins build. Add ssh server for file copy.
+### 4. Configure project build. Add GitHub project. Use Github webhook for Jenkins build. Add ssh server for file copy.
 
 ![](img/jen5.png)
 
