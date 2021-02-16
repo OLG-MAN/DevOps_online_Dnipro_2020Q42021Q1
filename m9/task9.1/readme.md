@@ -10,5 +10,13 @@
 
 ![](img/fizz3.png)
 
-### 1. Vowels function.
+### 2. Vowels function. Counting vowels in inpus string.
 
+![](img/vow1.png)
+
+![](img/vow2.png)
+
+![](img/vow3.png)
+
+### All .py files in task folder
+--------------------------------
