@@ -10,7 +10,7 @@
 
 ![](img/fizz3.png)
 
-### 2. Vowels function. Counting vowels in inpus string.
+### 2. Vowels function. Counting vowels in input string.
 
 ![](img/vow1.png)
 

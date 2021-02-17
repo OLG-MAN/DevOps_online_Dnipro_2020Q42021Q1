@@ -50,5 +50,6 @@
 
 ![](img/jen18.png)
 
+### P.S. This web-page(content) I'm will be not using in my final project, and a Jenkins pipeline would be different too. In the final project, I want to use Jenkins deploy to Kubernetes (now continuing learning this).
 
 ----------------------------------
