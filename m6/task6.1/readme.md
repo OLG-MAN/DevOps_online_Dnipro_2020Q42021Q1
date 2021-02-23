@@ -117,7 +117,7 @@
 
 ### 3. Determine the default gateway for your HOST and display routing table.
 
-* For AWS VPC i think this route. 54.93.0.221
+* For AWS VPC i think this IGW. 54.93.0.221
 
 ![](img/vpc41.png)
 
