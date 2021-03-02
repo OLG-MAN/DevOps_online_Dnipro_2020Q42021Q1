@@ -117,9 +117,11 @@
 
 ### 3. Determine the default gateway for your HOST and display routing table.
 
-* For AWS VPC i think this route
+* For AWS VPC i think this IGW. 54.93.0.221
 
 ![](img/vpc41.png)
+
+![](img/vpc50.png)
 
 ### 4. Trace the route to google.com
 
